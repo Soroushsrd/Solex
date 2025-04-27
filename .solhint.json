@@ -1,0 +1,12 @@
+{
+	"extends": "solhint:recommended",
+	"rules": {
+		"compiler-version": ["error", "^0.8.0"],
+		"func-visibility": ["warn", { "ignoreConstructors": true }],
+		"no-unused-import": "warn",
+		"foundry-import": "off",
+		"no-empty-blocks": "off",
+		"var-name-mixed-case": "off",
+		"func-name-mixedcase": "off"
+	}
+}
